@@ -1,0 +1,18 @@
+# define operacao
+operation = input("What type of arithmetic calculation do you wanto perform? (+ - * /)")
+
+#agora os numeros - perguntar ao professor porque tem de ser int(input e nao pode ser input(int(
+first_number = int(input("What's the first number? "))
+second_number = int(input("What's the second number? "))
+
+#if then operacoes
+if operation == "+":
+    print(first_number+second_number)
+elif operation == "-":
+    print(first_number-second_number)
+elif operation == "*":
+    print(first_number*second_number)
+elif operation == "/":
+    print(first_number/second_number)
+else:
+    print("de volta para a escola primária !")
